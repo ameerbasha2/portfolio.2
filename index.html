@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sk. Ameer Basha | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">&lt;Ameer Basha/&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-badge">AVAILABLE FOR OPPORTUNITIES</div>
+    <h1 class="hero-name">Sk. Ameer Basha</h1>
+    <div class="hero-typewriter">
+      <span id="typewriter"></span><span class="cursor">|</span>
+    </div>
+    <p class="hero-desc">
+      Crafting intelligent systems at the intersection of data, ML & code.
+      Turning raw data into decisions and ideas into production-grade software.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Languages</span></div>
+      <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+      <div class="stat"><span class="stat-num">200+</span><span class="stat-label">DSA Problems</span></div>
+      <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Certificates</span></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <p class="section-tag">TECH ARSENAL</p>
+    <h2 class="section-title">Skills &amp; Technologies</h2>
+    <div class="skill-tabs">
+      <button class="tab-btn active" data-tab="languages">Languages</button>
+      <button class="tab-btn" data-tab="frameworks">Frameworks</button>
+      <button class="tab-btn" data-tab="databases">Databases</button>
+      <button class="tab-btn" data-tab="mlai">ML / AI</button>
+      <button class="tab-btn" data-tab="concepts">Concepts</button>
+    </div>
+    <div class="skill-grid" id="skillGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <p class="section-tag">BUILT IN PRODUCTION</p>
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="section" id="certificates">
+    <p class="section-tag">VALIDATED EXPERTISE</p>
+    <h2 class="section-title">Certificates</h2>
+    <div class="cert-grid" id="certGrid"></div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    <p class="section-tag">MILESTONES</p>
+    <h2 class="section-title">Achievements</h2>
+    <div class="achieve-grid" id="achieveGrid"></div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <p class="section-tag">ACADEMIC BACKGROUND</p>
+    <h2 class="section-title">Education</h2>
+    <div class="edu-list" id="eduList"></div>
+  </section>
+
+  <!-- CODING PLATFORMS -->
+  <section class="section" id="coding">
+    <p class="section-tag">COMPETITIVE CODING</p>
+    <h2 class="section-title">Coding Platforms</h2>
+    <div class="coding-grid" id="codingGrid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <p class="section-tag">LET'S COLLABORATE</p>
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-sub">Open to full-time roles, internships, and exciting collaborations. Let's build something great together.</p>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://github.com/ameerbasha2" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/shaik-ameer-basha" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:bashaameerbahsa23@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>&lt;Ameer Basha/&gt; Crafted with precision · 2026</span>
+    <a href="#about" class="back-top"><i class="fas fa-arrow-up"></i> Top</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
